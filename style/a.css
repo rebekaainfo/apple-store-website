@@ -1,0 +1,43 @@
+.iphone-card-header{
+    position: relative;
+}
+
+.iphone-card{
+    
+    
+    height: 500px;
+    width: 400px;
+    overflow: hidden;
+
+}
+.text{
+    position: absolute;
+    z-index: 10;
+    margin-top: 20px;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    color: aliceblue;
+}
+.iphone-card img{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 90%;
+    border-radius: 20px;  
+}
+
+/* --------------- */
+
+
+
+
+
+
+
+
+
+
+
+
