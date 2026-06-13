@@ -102,3 +102,18 @@ popularLeft.addEventListener("click", () => {
         behavior: "smooth"
     });
 });
+
+
+const searchIcon = document.getElementById("searchIcon");
+const searchOverlay = document.getElementById("searchOverlay");
+
+searchIcon.addEventListener("click", () => {
+  searchOverlay.style.display = "block";
+});
+
+// close on ESC
+document.addEventListener("keydown", (e) => {
+  if(e.key === "Escape"){
+    searchOverlay.style.display = "none";
+  }
+});
